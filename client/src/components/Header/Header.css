@@ -1,0 +1,76 @@
+div#root > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+div#root > header > div.title {
+    flex-grow: 1;
+}
+
+div#root > header > div.title > a {
+    display: flex;
+    gap: 0.3rem;
+}
+
+div#root > header > div.title > a > img {
+    width: 38px;
+}
+
+div#root > header > div.user-data {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+div#root > header > div.user-data > img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+div#root > header > nav > label > img {
+    height: 50px;
+    width: 50px;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+input[type='checkbox']:checked + ul.nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.nav-links {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 85px;
+    list-style: none;
+}
+
+ul.nav-links > li {
+    background-color: var(--dark-orange);
+    padding: 1rem;
+    width: 300px;
+    border-bottom: 1px solid #b56a20;
+}
+
+ul.nav-links > li > a {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+ul.nav-links > li > button {
+    border: none;
+    background-color: var(--dark-orange);
+    color: white;
+    font-weight: bold;
+    font-size: inherit;
+    cursor: pointer;
+}

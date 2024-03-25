@@ -1,0 +1,30 @@
+div.add-photo > form {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+}
+form.search-form {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    gap: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+form.search-form > div {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+form.search-form > div > input {
+    padding: 0.2rem;
+    font-size: inherit;
+}
+
+form.search-form > div > input,
+form.search-form > button {
+    margin: 0;
+    height: 30px;
+}

@@ -1,0 +1,12 @@
+div.add-photo {
+    margin: 1rem 0;
+}
+
+div.add-photo > h3 {
+    color: var(--dark-orange);
+    border: 1px solid var(--dark-orange);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

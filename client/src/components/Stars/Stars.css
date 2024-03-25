@@ -1,0 +1,16 @@
+div.stars-vote {
+    text-align: center;
+}
+
+div.stars-container {
+    display: flex;
+}
+
+div.stars-container > img {
+    height: 35px;
+    width: 35px;
+}
+
+div.stars-container > img:hover {
+    transform: scale(1.2);
+}

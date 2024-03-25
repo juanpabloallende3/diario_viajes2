@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-orange: #fd9329;
+    --light-orange: #fab067;
+    --white-cake: #feffdf;
+    --yellow-cake: #ffe79a;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+div#root > header,
+div#root > footer {
+    background-color: var(--light-orange);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/**
+ * ##########
+ * ## MAIN ##
+ * ##########
+ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    padding: 2rem;
+}
+
+/**
+ * ##########################
+ * ## FORMULARIOS GENÉRICO ##
+ * ##########################
+ */
+
+main > form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+}
+
+main > form > textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+
+main > form > input,
+main > form > textarea {
+    margin-bottom: 10px;
+    padding: 0.2rem;
+}
+
+main > form > button {
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+main > form > input,
+main > form > button {
+    height: 30px;
+}
